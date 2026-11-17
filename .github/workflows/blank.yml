@@ -14,4 +14,5 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  ci: gsgall/test_workflows/.github/workflows/blank.yml@2132278b77a0e084a8e9a7d588be44110cc95f87
+  ci:
+    uses: gsgall/test_workflows/.github/workflows/blank.yml@2132278b77a0e084a8e9a7d588be44110cc95f87
